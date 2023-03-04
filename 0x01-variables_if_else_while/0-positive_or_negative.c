@@ -6,12 +6,12 @@
 
 /**
  * main - Entry point
- *
- * Return: Always 0 (success)
+ * Return: Always (Success)
  */
 
 int main(void)
 {
+
 	int n;
 	
 	srand(time(0));
@@ -30,4 +30,5 @@ int main(void)
 	printf("%d is negative\n", n);
 	}
 	return (0);
+
 }
